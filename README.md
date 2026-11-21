@@ -1,6 +1,7 @@
 # Retail Sales Performance & Customer Insights
 ### End-to-End Data Analytics Capstone Project
- 
+
+**Created by: Pooja Ammasi**  
 **Domain:** Retail & E-Commerce Analytics  
 **Project Type:** End-to-End Data Analytics
 
@@ -90,12 +91,10 @@ The project uses a retail sales dataset organized using a **Star Schema**.
 
 ## Project Deliverables
 
-All project files and supporting documents are available in their respective repository folders.
-
-- **Excel:** Data workbooks and business analysis.
-- **SQL:** Query catalog and final query documentation.
-- **Python:** Analysis notebook and customer analytics.
-- **Power BI:** Interactive dashboard and dashboard documentation.
+- **Excel:** Retail capstone workbook and business analysis workbook.
+- **SQL:** Final query document and SQL query catalog.
+- **Python:** Python analysis notebook.
+- **Power BI:** Retail dashboard and dashboard user guide.
 
 ## Key Skills
 
@@ -117,24 +116,25 @@ All project files and supporting documents are available in their respective rep
 Retail-Sales-Performance-Customer-Insights/
 │
 ├── Excel/
+│   └── Retail_Capstone.xlsx
 │
 ├── SQL/
 │   ├── FINAL QUERY DOCUMENT.docx
-│   ├── SQL QUERY CATALOG.docx
-│   └── README.md
+│   └── SQL QUERY CATALOG.docx
 │
 ├── Python/
-│   ├── README.md
-│   └── Python Analysis Notebook
+│   └── Python Analysis Notebook.ipynb
 │
-├── PowerBI/
-│   ├── retail_dashboard.pbix
-│   └── HOW TO READ THIS DASHBOARD.docx
-│
-└── README.md
+└── PowerBI/
+    ├── retail_dashboard.pbix
+    └── HOW TO READ THIS DASHBOARD.docx
 ```
 
 ## About Me
 
 **Pooja Ammasi**  
 Aspiring Data Analyst | Business Analyst
+
+---
+
+*Thank you for visiting my project!*

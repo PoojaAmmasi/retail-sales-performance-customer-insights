@@ -4,106 +4,80 @@
 
 **Domain:** Retail / E-Commerce Analytics
 
-An end-to-end retail analytics project transforming approximately 1 million sales transactions into actionable business insights using Excel, SQL, Python and Power BI.
-
 ## Project Overview
 
-This project is an end-to-end retail analytics capstone designed to transform raw retail sales data into meaningful business insights.
+An end-to-end data analytics project focused on analyzing approximately 1 million retail sales transactions to uncover business insights and support data-driven decision-making.
 
-The project follows a complete analytics workflow using **Excel, SQL, Python, and Power BI**, covering data cleaning, exploratory data analysis, database querying, customer segmentation, and interactive dashboard development.
-
-## Business Problem
-
-A retail business wants to understand its sales performance, customer purchasing behaviour, product performance, store performance, and campaign effectiveness.
-
-The objective is to use data-driven analysis to help business stakeholders make better decisions about sales, customer retention, inventory, and marketing strategies.
-
-## Project Objectives
-
-- Analyze overall retail sales and revenue performance.
-- Identify high-performing and underperforming stores and products.
-- Understand customer purchasing behaviour and segmentation.
-- Analyze sales trends over time.
-- Evaluate campaign performance.
-- Identify customers with potential churn risk.
-- Present actionable business insights through an interactive dashboard.
+The project uses Excel, SQL, Python, and Power BI to explore sales performance, customer behaviour, product trends, and business performance.
 
 ## Tools & Technologies
 
-| Tool | Purpose |
-|---|---|
-| Microsoft Excel | Data cleaning, profiling, lookup functions, PivotTables and PivotCharts |
-| SQL – TiDB Cloud | Relational data analysis, joins, aggregations, CTEs and window functions |
-| Python – Google Colab | Data cleaning, EDA, feature engineering, statistical analysis and customer segmentation |
-| Power BI | Data visualization, DAX, interactive dashboards and business storytelling |
+- **Excel:** Data Cleaning, Data Analysis, PivotTables and Data Visualization
+- **SQL (TiDB Cloud):** Joins, Subqueries, CTEs and Window Functions
+- **Python (Google Colab):** Pandas, NumPy, EDA and Customer Segmentation
+- **Power BI:** DAX, Interactive Dashboards and Data Visualization
 
-## Dataset Structure
+## Dataset
 
-The project uses a retail star-schema dataset containing seven tables:
+The project contains seven tables:
 
-- `Fact_Sales`
-- `Dim_Customers`
-- `Dim_Products`
-- `Dim_Stores`
-- `Dim_Salesperson`
-- `Dim_Campaign`
-- `Dim_Dates`
-
-The sales dataset contains approximately **1,000,000 transactions**.
+- Fact_Sales
+- Dim_Customers
+- Dim_Products
+- Dim_Stores
+- Dim_Salesperson
+- Dim_Campaign
+- Dim_Dates
 
 ## Project Workflow
 
-### Stage 1 – Excel: Data Cleaning & Analysis
+**Stage 1 – Excel**
+- Data cleaning and profiling
+- Missing value and duplicate checks
+- Data quality validation
+- Outlier analysis
+- PivotTables and PivotCharts
 
-- Imported and organized seven datasets.
-- Performed data profiling and quality checks.
-- Checked duplicate keys, missing values and orphan foreign keys.
-- Identified and handled text-formatting inconsistencies.
-- Performed outlier analysis using the IQR method.
-- Applied XLOOKUP to enrich the sales dataset.
-- Created PivotTables and PivotCharts.
-- Applied conditional formatting.
-- Prepared a Data Quality Report.
+**Stage 2 – SQL**
+- Data analysis using TiDB Cloud
+- Joins and aggregations
+- Subqueries and CTEs
+- Window functions
+- Business problem-solving
 
-### Stage 2 – SQL: Relational Data Analysis
+**Stage 3 – Python**
+- Data exploration using Pandas and NumPy
+- Exploratory Data Analysis (EDA)
+- Feature engineering
+- Customer segmentation
+- Customer behaviour and churn analysis
 
-- Loaded datasets into TiDB Cloud.
-- Worked with relational tables and key relationships.
-- Practiced joins, subqueries, CTEs and window functions.
-- Answered business questions using SQL.
-- Analyzed sales, products, stores and customer performance.
+**Stage 4 – Power BI**
+- Interactive dashboards
+- KPI development
+- Sales and customer performance analysis
+- Business insights and visualization
 
-### Stage 3 – Python: EDA & Customer Analytics
+## Project Files
 
-Using Google Colab:
+| Deliverable | Link |
+|---|---|
+| Excel – Data Cleaning & Analysis | [View Excel Workbook](https://docs.google.com/spreadsheets/d/1VWqM-9ESmJyrT8prziJ_nDXOaIhVgg8M/edit?usp=sharing&ouid=100275460349809612912&rtpof=true&sd=true) |
+| Power BI – Interactive Dashboard | [View Power BI Dashboard](https://drive.google.com/file/d/1hEqAGIIidSWwVENQMAx6oz3MqjyDYqFm/view?usp=sharing) |
+| SQL – Business Analysis | Available in the `02_SQL` folder |
+| Python – EDA & Customer Analytics | Available in the `03_Python` folder |
 
-- Performed data exploration and validation.
-- Used Pandas and NumPy for data manipulation.
-- Analyzed distributions and outliers.
-- Performed feature engineering.
-- Conducted customer segmentation using clustering.
-- Analyzed customer purchasing behaviour and churn risk.
+## Key Skills Demonstrated
 
-### Stage 4 – Power BI: Dashboard & Business Insights
+- Data Cleaning and Data Quality
+- Exploratory Data Analysis
+- SQL Querying and Data Analysis
+- Python Data Manipulation
+- Statistical Analysis and Customer Segmentation
+- Data Visualization and Dashboard Development
+- Business Analysis and Problem-Solving
 
-- Built an interactive retail sales dashboard.
-- Created KPI cards and business performance visuals.
-- Analyzed revenue by product, store, customer segment and campaign.
-- Used slicers and interactive report features.
-- Presented findings to support business decision-making.
+## Author
 
-## Key Data Quality Findings
-
-- No duplicate business keys were identified.
-- No blank values were identified in the documented checks.
-- No orphan foreign keys were identified across 1,000,000 sales records.
-- No missing campaign keys were identified.
-- No outliers were identified using the selected IQR rule.
-- Trailing spaces were identified in `store_type` for **173 of 500 stores** and corrected using Trim in Power Query.
-
-## Repository Structure
-
-```text
-retail-sales-performance-customer-insights/
-│
-├── README
+**Pooja Ammasi**  
+Aspiring Data Analyst | Business Analyst

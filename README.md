@@ -1,15 +1,16 @@
-# retail-sales-performance-customer-insights
-End-to-end retail analytics capstone using Excel, SQL, Python and Power BI.
 # Retail Sales Performance & Customer Insights
+
 ### End-to-End Data Analytics Capstone Project
+
+**Domain:** Retail / E-Commerce Analytics
+
+An end-to-end retail analytics project transforming approximately 1 million sales transactions into actionable business insights using Excel, SQL, Python and Power BI.
 
 ## Project Overview
 
 This project is an end-to-end retail analytics capstone designed to transform raw retail sales data into meaningful business insights.
 
 The project follows a complete analytics workflow using **Excel, SQL, Python, and Power BI**, covering data cleaning, exploratory data analysis, database querying, customer segmentation, and interactive dashboard development.
-
-**Domain:** Retail / E-Commerce Analytics
 
 ## Business Problem
 
@@ -40,15 +41,15 @@ The objective is to use data-driven analysis to help business stakeholders make 
 
 The project uses a retail star-schema dataset containing seven tables:
 
-- Fact_Sales
-- Dim_Customers
-- Dim_Products
-- Dim_Stores
-- Dim_Salesperson
-- Dim_Campaign
-- Dim_Dates
+- `Fact_Sales`
+- `Dim_Customers`
+- `Dim_Products`
+- `Dim_Stores`
+- `Dim_Salesperson`
+- `Dim_Campaign`
+- `Dim_Dates`
 
-The sales dataset contains approximately 1,000,000 transactions.
+The sales dataset contains approximately **1,000,000 transactions**.
 
 ## Project Workflow
 
@@ -98,34 +99,11 @@ Using Google Colab:
 - No orphan foreign keys were identified across 1,000,000 sales records.
 - No missing campaign keys were identified.
 - No outliers were identified using the selected IQR rule.
-- Trailing spaces were identified in `store_type` for 173 of 500 stores and corrected using Trim in Power Query.
+- Trailing spaces were identified in `store_type` for **173 of 500 stores** and corrected using Trim in Power Query.
 
 ## Repository Structure
 
-- `01_Excel/` – Excel analysis and data quality documentation.
-- `02_SQL/` – SQL queries and query catalog.
-- `03_Python/` – Google Colab notebooks.
-- `04_PowerBI/` – Power BI dashboard and screenshots.
-- `05_Documentation/` – Project methodology and business insights.
-
-## Business Value
-
-This project demonstrates how raw retail data can be transformed into structured information and actionable insights.
-
-It brings together data preparation, analytical querying, statistical exploration, customer segmentation and business intelligence reporting.
-
-## Skills Demonstrated
-
-Excel | SQL | Python | Pandas | NumPy | EDA | Statistics | Clustering | Customer Segmentation | Power BI | DAX | Data Cleaning | Data Visualization | Business Analysis
-
-## Project Deliverables
-
-- Excel data preparation and quality report.
-- SQL business analysis query collection.
-- Python EDA and customer analytics notebooks.
-- Interactive Power BI dashboard.
-- Project documentation and business findings.
-## Author
-
-**Pooja Ammasi**  
-Aspiring Data Analyst | Business Analyst
+```text
+retail-sales-performance-customer-insights/
+│
+├── README
